@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5252" />
+      <stop offset="100%" stop-color="#E5322D" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Document Shape -->
+  <g filter="url(#shadow)" transform="translate(106, 86)">
+    <path d="M 0,24 C 0,10.7 10.7,0 24,0 L 200,0 L 300,100 L 300,316 C 300,329.3 289.3,340 276,340 L 24,340 C 10.7,340 0,329.3 0,316 Z" fill="#FFFFFF" />
+    <path d="M 200,0 L 300,100 L 220,100 C 209,100 200,91 200,80 Z" fill="#E2E8F0" />
+    
+    <!-- Lock / Shield Privacy Badge -->
+    <circle cx="150" cy="190" r="54" fill="#FEF2F2" />
+    <path d="M 134,180 L 134,166 C 134,157.2 141.2,150 150,150 C 158.8,150 166,157.2 166,166 L 166,180 Z" fill="none" stroke="#E5322D" stroke-width="8" stroke-linecap="round" />
+    <rect x="126" y="180" width="48" height="40" rx="8" fill="#E5322D" />
+    <circle cx="150" cy="198" r="4" fill="#FFFFFF" />
+    <path d="M 150,202 L 150,210" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- PDF Text -->
+    <text x="150" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#E5322D" text-anchor="middle" letter-spacing="2">PRIVATE</text>
+  </g>
+</svg>

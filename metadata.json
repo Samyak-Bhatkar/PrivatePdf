@@ -1,0 +1,6 @@
+{
+  "name": "PrivatePDF - 100% Local PDF & Image Toolkit",
+  "description": "Ultra-fast, privacy-first PDF toolkit running 100% in your browser. Convert images to PDF, merge, split, compress, organize, watermark, rotate, crop, and sign PDFs with zero server uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
